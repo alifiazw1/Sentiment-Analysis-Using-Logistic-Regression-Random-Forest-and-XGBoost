@@ -1,9 +1,10 @@
 # Sentiment-Analysis-Using-Logistic-Regression-Random-Forest-and-XGBoost
 
-##Overview
+## Overview
+
 Proyek ini berfokus pada analisis sentimen dalam postingan media sosial menggunakan teknik Machine Learning. Dataset yang digunakan berasal dari Kaggle dengan judul "Social Media Sentiment Analysis". Tujuan dari proyek ini adalah untuk membandingkan kinerja model yang dibangun, dalam memprediksi sentimen menjadi tiga kategori yaitu positif, negatif, dan netral. 
 
-##Dataset
+## Dataset
 Dataset terdiri dari 732 Baris dan 13 kolom dengan keterangan setiap variabel adalah sebagai berikut:
 1. Teks Postingan: Konten yang dibuat oleh pengguna yang menunjukkan sentimen.
 2. Label Sentimen: Kategori emosi yang diklasifikasikan.
@@ -18,7 +19,7 @@ Dataset terdiri dari 732 Baris dan 13 kolom dengan keterangan setiap variabel ad
 11. Month : Bulan dari postingan
 12. Day : Hari dari postingan
 
-##Pre Processing
+## Pre Processing
 Untuk mempersiapkan data sebelum masuk ke pemodelan, dilakukan beberapa langkah terutama pada kolom "Text" yang menjadi bahan utama dalam pembangunan model. 
 1. Pembersihan Teks: Menghapus karakter khusus, angka, dan spasi berlebih.
 2. Konversi ke Huruf Kecil: Mengubah semua teks menjadi huruf kecil agar seragam.
@@ -56,3 +57,6 @@ Dari ketiga model, algoritma XGBoost menghasilkan nilai presisi, recall, dan f1-
 ## Saran
 1. Menggunakan model deep learning seperti LSTM
 2. Mengoptimalkan Pre Processing data untuk menghasilkan data yang lebih bersih dan lebih baik.
+
+# Dashboard
+Dashboard analisis digunakan untuk memahami hasil analisis dan karakteristik data dengan menggunakan visualisasi yang menarik dan mudah untuk dimengerti. Pada proyek ini, dashboard analisis dibuat dengan menggunakan Looker Studio, yang menampilkan hasil analisis sentimen dari postingan, dan informasi-informasi pendukung lainnya.
